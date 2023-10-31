@@ -8,6 +8,15 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 10px;
+        transition: opacity 0.15s;
+    }
+
+    .subscribe-button:hover {
+        opacity: 0.8;
+    }
+
+    .subscribe-button:active {
+        opacity: 0.5;
     }
 
     .join-button {
@@ -15,11 +24,23 @@
         width: 62px;
         color: rgb(41, 118, 211);
         border-color: rgb(41, 118, 211);
+        background-color: white;
         border-style: solid;
         border-width: 1px;
         border-radius: 2px;
         cursor: pointer;
         margin-right: 10px;
+        transition: background-color 0.15s,
+            color 0.15s;
+    }
+
+    .join-button:hover {
+        background-color: rgb(41, 118, 211);
+        color: white;
+    }
+
+    .join-button:active {
+        opacity: 0.7;
     }
 
     .tweet-button {
@@ -32,6 +53,11 @@
         cursor: pointer;
         font-weight: bold;
         font-size: 15px;
+        transition: box-shadow 0.15s;
+    }
+
+    .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
     }
 
     .request-now-button {
@@ -68,7 +94,7 @@
     }
 
     .get-started-button {
-        background-color: rgb(121,82,179);
+        background-color: rgb(121, 82, 179);
         color: white;
         font-weight: bold;
         border: none;
@@ -81,20 +107,20 @@
 
     .download-button {
         background-color: white;
-        color: rgb(108,117,125);
+        color: rgb(108, 117, 125);
         height: 36px;
         width: 100px;
         border-style: solid;
         border-width: 1px;
         border-radius: 4px;
-        border-color: rgb(108,117,125);
+        border-color: rgb(108, 117, 125);
         cursor: pointer;
         margin-left: 10px;
         font-weight: bold;
     }
 
     .apply-on-company-website-button {
-        background-color: rgb(10,102,194);
+        background-color: rgb(10, 102, 194);
         color: white;
         font-weight: bold;
         border: none;
@@ -108,9 +134,9 @@
 
     .save-button {
         background-color: white;
-        color: rgb(10,102,194);
+        color: rgb(10, 102, 194);
         border-radius: 20px;
-        border-color: rgb(10,102,194);
+        border-color: rgb(10, 102, 194);
         font-weight: bold;
         height: 36px;
         width: 70px;
